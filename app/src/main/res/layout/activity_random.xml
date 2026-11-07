@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <CheckBox
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Number is Int?"
+        android:id="@+id/checkboxBtn"
+        android:layout_marginTop="@dimen/vertical_margin"
+        android:layoutDirection="rtl"
+        />
+
+    <com.google.android.material.slider.RangeSlider
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:valueFrom="0"
+        android:stepSize="100"
+        android:valueTo="1000"
+        android:id="@+id/sliderBtn"
+        android:layout_marginTop="@dimen/verticalMargin"
+        app:values="@array/random"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:text="100"
+        android:textSize="30sp"
+        android:id="@+id/resultTv"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:layout_gravity="center_horizontal"
+        android:layout_height="wrap_content"/>
+    
+    <Button
+        android:id="@+id/generateBtn"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/verticalMargin"
+        android:text="Generate"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

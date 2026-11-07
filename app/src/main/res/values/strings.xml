@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">My Lesson</string>
+
+    <string-array name="initial">
+        <item>20</item>
+        <item>70</item>
+    </string-array>
+
+    <array name="random">
+        <item>0</item>
+        <item>1000</item>
+    </array>
+
+    <string-array name="months">
+        <item>Yanvar</item>
+        <item>Fevral</item>
+        <item>Mart</item>
+        <item>Aprel</item>
+        <item>May</item>
+        <item>Iyun</item>
+        <item>Iyul</item>
+        <item>Avgust</item>
+        <item>Seniyabir</item>
+        <item>Oktiyabir</item>
+        <item>Noyabir</item>
+        <item>Dekabir</item>
+
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:stretchColumns="*">
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/qizil"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/yashil"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="30sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@color/kok"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="2"
+            android:background="@color/sariq"
+            android:gravity="center"
+            android:text="1"
+            android:textSize="30sp" />
+
+        <TextView
+            android:background="@color/olmatorqan"
+            android:gravity="center"
+            android:text="2"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_span="3"
+            android:background="@color/siyohrang"
+            android:gravity="center"
+            android:text="3"
+            android:textSize="30sp" />
+
+    </TableRow>
+
+</TableLayout>
