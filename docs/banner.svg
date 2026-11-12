@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 400" width="1280" height="400" role="img" aria-label="MyLesson">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#0D1117"/><stop offset="1" stop-color="#161B2E"/>
+  </linearGradient>
+  <radialGradient id="glow" cx="78%" cy="45%" r="55%">
+    <stop offset="0" stop-color="#FB923C" stop-opacity=".28"/><stop offset="1" stop-color="#FB923C" stop-opacity="0"/>
+  </radialGradient>
+  <linearGradient id="acc" x1="0" y1="0" x2="1" y2="0">
+    <stop offset="0" stop-color="#FB923C"/><stop offset="1" stop-color="#FACC15"/>
+  </linearGradient>
+  <pattern id="dots" width="24" height="24" patternUnits="userSpaceOnUse">
+    <circle cx="2" cy="2" r="1.2" fill="#FFFFFF" fill-opacity=".05"/>
+  </pattern>
+  <clipPath id="card"><rect width="1280" height="400" rx="28"/></clipPath>
+</defs>
+<g clip-path="url(#card)">
+  <rect width="1280" height="400" fill="url(#bg)"/>
+  <rect width="1280" height="400" fill="url(#dots)"/>
+  <rect width="1280" height="400" fill="url(#glow)"/>
+  <rect x="64" y="62" width="44" height="5" rx="2.5" fill="url(#acc)"/>
+  <text x="120" y="70" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="700" letter-spacing="3" fill="#FB923C">ANDROID · UI LESSONS</text>
+  <text x="62" y="150" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="64" font-weight="800" fill="#F5F6FA" letter-spacing="-1">MyLesson</text>
+  <text x="64" y="208" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" fill="#B7BCD0">A tour of the Android View system —</text><text x="64" y="240" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="22" fill="#B7BCD0">24 lessons, 43 layouts.</text>
+  <g transform="translate(64,300)"><rect width="70" height="32" rx="16" fill="#FB923C" fill-opacity=".14" stroke="#FB923C" stroke-opacity=".45"/><text x="35" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Kotlin</text></g><g transform="translate(143.6,300)"><rect width="104" height="32" rx="16" fill="#FB923C" fill-opacity=".14" stroke="#FB923C" stroke-opacity=".45"/><text x="52" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">ViewPager2</text></g><g transform="translate(257.6,300)"><rect width="61" height="32" rx="16" fill="#FB923C" fill-opacity=".14" stroke="#FB923C" stroke-opacity=".45"/><text x="30" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Glide</text></g><g transform="translate(328.6,300)"><rect width="104" height="32" rx="16" fill="#FB923C" fill-opacity=".14" stroke="#FB923C" stroke-opacity=".45"/><text x="52" y="21" text-anchor="middle" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#E8EAF2">Animations</text></g>
+  <g><rect x="780" y="60" width="200" height="130" rx="18" fill="#1E2438" stroke="#2C3450"/><text x="800" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#8B92AB" text-anchor="start" >Button</text><rect x="800" y="110" width="160" height="50" rx="14" fill="#FB923C"><animate attributeName="opacity" values="1;.55;1" dur="1.6s" repeatCount="indefinite"/></rect><text x="880" y="142" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="17" font-weight="700" fill="#0D1117" text-anchor="middle" >Click me</text><rect x="1000" y="60" width="210" height="130" rx="18" fill="#1E2438" stroke="#2C3450"/><text x="1020" y="92" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#8B92AB" text-anchor="start" >Switch</text><rect x="1020" y="115" width="84" height="44" rx="22" fill="#3A4262"><animate attributeName="fill" values="#3A4262;#FACC15;#FACC15;#3A4262" keyTimes="0;.25;.75;1" dur="3s" repeatCount="indefinite"/></rect><circle cx="1042" cy="137" r="17" fill="#F5F6FA"><animate attributeName="cx" values="1042;1082;1082;1042" keyTimes="0;.25;.75;1" dur="3s" repeatCount="indefinite"/></circle><rect x="780" y="210" width="430" height="130" rx="18" fill="#1E2438" stroke="#2C3450"/><text x="800" y="242" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,sans-serif" font-size="14" font-weight="600" fill="#8B92AB" text-anchor="start" >SeekBar · Animation · ViewPager2</text><rect x="800" y="285" width="380" height="8" rx="4" fill="#3A4262"/><rect x="800" y="285" width="60" height="8" rx="4" fill="url(#acc)"><animate attributeName="width" values="40;340;40" dur="4s" repeatCount="indefinite"/></rect><circle cx="840" cy="289" r="14" fill="#F5F6FA"><animate attributeName="cx" values="840;1140;840" dur="4s" repeatCount="indefinite"/></circle></g>
+</g>
+</svg>
